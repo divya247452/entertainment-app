@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  .scroll-container {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .scroll-container::-webkit-scrollbar {
+    height: 8px; 
+  }
+
+  .scroll-container::-webkit-scrollbar-track {
+    background: #161d2f; /* Track color */
+  }
+
+  .scroll-container::-webkit-scrollbar-thumb {
+    background: #888; /* Thumb color */
+    border-radius: 8px; /* Rounded corners */
+  }
+
+  .scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Thumb hover color */
+  }
+
